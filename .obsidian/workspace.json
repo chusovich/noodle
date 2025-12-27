@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9427abcb45439f83",
+        "id": "1ec74bc7cee5930b",
         "type": "tabs",
         "children": [
           {
-            "id": "1d19c577fe5b352c",
+            "id": "f0bd92969dea5bf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product Lineup.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Product Lineup"
+              "title": "README"
             }
           }
         ]
@@ -193,14 +193,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1d19c577fe5b352c",
+  "active": "f0bd92969dea5bf1",
   "lastOpenFiles": [
+    "Product Lineup.md",
     "NixOS Images.md",
     "Miscellaneous/mkdocs.md",
     "Time Budget.md",
     "README.md",
     "Rclone and Rsync.md",
-    "Product Lineup.md",
     "Links.md",
     "Miscellaneous/Kitchen Cost Outline.md",
     "Miscellaneous/Installing Zstandard (zstd) on Windows 11.md",
