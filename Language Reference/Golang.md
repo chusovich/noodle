@@ -79,13 +79,13 @@ Declaring a pointer
 var foo *int
 ```
 
-2. create a new memory address
+1. create a new memory address
 
 ```
 foo := new(int)
 ```
 
-3. create a pointer to an existing variable
+1. create a pointer to an existing variable
 
 ```
 var foo int = 4

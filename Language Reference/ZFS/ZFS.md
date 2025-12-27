@@ -7,7 +7,7 @@ ZFS is:
 ### Terms
 - VDEV: virutal device. a logical grouping of one or more physical devices
 - Pool: a group or one or more VDEVS
-- RAId-Z: a way of putting multiple drives together that a
+- RAID-Z: a way of putting multiple drives together that a
 
 ### Links
 - [ZFS 101](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/)

@@ -1,3 +1,5 @@
+#nix
+
 ## Changing NixOS Channel (Upgrading)
 
 [NixOS Manul Ref](https://nixos.org/manual/nixos/stable/#sec-upgrading)

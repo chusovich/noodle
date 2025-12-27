@@ -39,7 +39,7 @@ but playbook overrides host and group
 
 but if you pass in a var through the command line, that takes presesndnce over the play book vars
 
-## Variable Scoping
+### Variable Scoping
 
 host scope
 
@@ -47,13 +47,13 @@ play scope
 
 global
 
-## Magic Variables
+### Magic Variables
 - hostvars: variables form other hosts
 - groups: returns all hosts of the that groups
 - group_names: returns all groups for a host
 - inventory_hostname: returns name configured for host in the inventory files
 
-## Facts
+### Facts
 
 Facts are bits of information collected from the server once ansible connects to it
 
@@ -99,24 +99,24 @@ tasks:
 ansible-playbook <playbook file name>
 ```
 
-## Verifying Playbooks
-### Check Mode
+### Verifying Playbooks
+#### Check Mode
 
 dry run where no actual changes to the hosts
 
 use --check option when running the playbook
 
-### Diff Mode
+#### Diff Mode
 
 Shows a before and after
 
 user the --diff option
 
-### Syntax Check
+#### Syntax Check
 
 use --syntax-check option
 
-## Ansible Lint
+### Ansible Lint
 
 command line style checker
 
@@ -124,18 +124,18 @@ command line style checker
 ansible-lint playbook.yml
 ```
 
-## Conditionals
+### Conditionals
 
 run certain tasks based on conditions
 
 also can be used in loops
 
-## Conditionals Based on Facts, Etc.
-## Loops
-### Loop
-### With_*
-## Modules
-### Groups
+### Conditionals Based on Facts, Etc.
+### Loops
+#### Loop
+#### With_*
+### Modules
+#### Groups
 - system: system level stuff: firewalls, etc
 - commands: commands and scripts
 - Files:
@@ -143,8 +143,8 @@ also can be used in loops
 - Cloud: different cloud provider helpers
 - Windows:
 
-### Exmamples
-#### Command
+## Examples
+### Command
 
 ```yaml # basic command task
 tasks:
@@ -163,17 +163,17 @@ tasks: # these tasks do the same thing, but the second use parameters
 
 free form parameter:
 
-#### Script
+### Script
 
 executes a local script on a remove node after transferring it
 
-#### Service
+### Service
 
 start vs started - idempotency (a command can be run multiple times without modified )
 
 started = ensure the service is started
 
-#### Lineinfile
+## Lineinfile
 
 serach for a line and replace or add it to a file
 
@@ -194,10 +194,10 @@ assigning a role means doing everything the server needs to do to accomplish it'
 
 it is a set of tasks, and it basically as playbook, that is typically set as constant and can be easily reused
 
-## Collections
+### Collections
 
 collections of plugins, collections,
 
-## Templating
+### Templating
 
 Jinja2 - templating engine for python

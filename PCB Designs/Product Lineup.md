@@ -60,6 +60,7 @@ HAT
 | PCB                                                                                | 50           | 80            |
 | **Total**                                                                          | 147.77       | 907.13        |
 | **Per Board**                                                                      | 14.77        | 9.08          |
+
 ## Carrier Board
 
 | Component                                                                                                                              | Price per 10 | Price Per 100 |
@@ -70,6 +71,7 @@ HAT
 | PCB                                                                                                                                    | 50           | 80            |
 | **Total**                                                                                                                              | 31           | 255.38        |
 | **Per Board**                                                                                                                          | 3.1          | 2.56          |
+
 ## ESP32-C3 MicroMod
 
 | Component                                                                            | Price Per 10 | Price Per 100 |

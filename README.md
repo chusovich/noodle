@@ -1,7 +1,8 @@
-# noodle
+## Noodle
+
 repo for my personal obsidian vault
 
-# Methods to Push
+## Methods to Push
 - use `ctrl+shift+p`
 - use the button below
 

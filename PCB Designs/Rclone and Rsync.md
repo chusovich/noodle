@@ -3,6 +3,7 @@ Below is a **clear, step-by-step guide** to setting up **rclone with rsync.net**
 This works well for photo backups and general data.
 
 ---
+
 ## 1️⃣ Prerequisites
 
 Before starting, make sure you have:
