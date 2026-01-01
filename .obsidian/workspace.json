@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "3da90136b16dab4d",
+        "id": "7e91e8d5ddf3a0c4",
         "type": "tabs",
         "children": [
           {
-            "id": "c07aa0a911e5f999",
+            "id": "e35e6fd207ed3e3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Reference/Git/Managing Secrets in Docker Compose with GitHub Actions.md",
+                "file": "NixOS/NixOS Config for Restic.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Managing Secrets in Docker Compose with GitHub Actions"
+              "title": "NixOS Config for Restic"
+            }
+          },
+          {
+            "id": "870469433a48f09b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flake Examples.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Flake Examples"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,42 +208,42 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c07aa0a911e5f999",
+  "active": "870469433a48f09b",
   "lastOpenFiles": [
+    "Flake Parts.md",
+    "nixos-anywhere.md",
+    "Flake Examples.md",
+    "README.md",
+    "NixOS/NixOS Config for Restic.md",
+    "NixOS/NixOS Router.md",
+    "NixOS/NixOS.md",
+    "To Sort/M5 Stack Products of Note.md",
+    "PCB Design/ESP32-S3 Pin Mapping.md",
+    "PCB Design/ESP32 POE Build.md",
+    "PCB Design/ESP32-S3 Dev Board Pinouts.md",
+    "PCB Design/Product Lineup.md",
+    "To Sort/Links.md",
+    "To Sort/Rclone and Rsync.md",
+    "To Sort/Smart 3 Way Swtiches.md",
+    "To Sort/Dynamically Changing Sensor Update Interval in ESPHome.md",
+    "PCB Design/ESP32 Chip Antennas.md",
+    "To Sort/N100 Server Build.md",
+    "PC Building Hardware/Motherboards.md",
+    "PC Building Hardware/Mini PCs.md",
+    "To Sort/POE Power Meter.md",
+    "Language Reference/Git/Managing Secrets in Docker Compose with GitHub Actions.md",
     "Language Reference/Golang.md",
     "Language Reference/Ansible.md",
     "Language Reference/ZFS/ZFS Commands.md",
     "Language Reference/ZFS/ZFS.md",
-    "Language Reference/HTML.md",
-    "Linux/IP Tables.md",
-    "Linux/grep.md",
-    "Linux/awk.md",
-    "SmartHome/Sonoff Mini R4.md",
-    "SmartHome/Smart 3 Way Swtiches.md",
-    "SmartHome/Dynamically Changing Sensor Update Interval in ESPHome.md",
-    "To Sort/mkdocs.md",
-    "NixOS/NixOS on Raspberry Pi.md",
-    "NixOS/NixOS Config for Restic.md",
-    "NixOS/NixOS Router.md",
-    "NixOS/NixOS.md",
-    "NixOS/NixOS Channel.md",
     "NixOS",
-    "README.md",
-    "PCB Designs/Rclone and Rsync.md",
-    "PCB Designs/Links.md",
-    "PCB Designs/Product Lineup.md",
-    "To Sort/Time Budget.md",
-    "NixOS Images.md",
-    "To Sort/Kitchen Cost Outline.md",
-    "To Sort/Installing Zstandard (zstd) on Windows 11.md",
-    "Display Board.md",
     "Untitled.base",
     "PC Building Hardware",
     "Linux/Operating Systems",
     "Language Reference/ZFS",
     "Language Reference/Git",
     "Language Reference/Docker",
-    "PCB Designs",
+    "PCB Design",
     "To Sort",
     "Images/ESP32-S3 Dev Board Pinouts-1755813242344.webp",
     "Images/ESP32-S3 Dev Board Pinouts-1755813138909.webp",
