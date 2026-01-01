@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "7e91e8d5ddf3a0c4",
+        "id": "6f1639029bb68357",
         "type": "tabs",
         "children": [
           {
-            "id": "e35e6fd207ed3e3d",
+            "id": "90c34d05c785a265",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NixOS/NixOS Config for Restic.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "NixOS Config for Restic"
-            }
-          },
-          {
-            "id": "870469433a48f09b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flake Examples.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Flake Examples"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,13 +189,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "870469433a48f09b",
+  "active": "90c34d05c785a265",
   "lastOpenFiles": [
-    "Flake Parts.md",
-    "nixos-anywhere.md",
-    "Flake Examples.md",
-    "README.md",
     "NixOS/NixOS Config for Restic.md",
+    "NixOS/Flake Examples.md",
+    "NixOS/Flake Parts.md",
+    "NixOS/nixos-anywhere.md",
+    "README.md",
     "NixOS/NixOS Router.md",
     "NixOS/NixOS.md",
     "To Sort/M5 Stack Products of Note.md",

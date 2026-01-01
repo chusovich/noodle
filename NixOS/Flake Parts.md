@@ -1,5 +1,7 @@
-#nixos #flakes 
-# Boilerplate Flake
+#nixos #flakes
+
+## Boilerplate Flake
+
 ```nix
 # flake.nix
 {
@@ -15,7 +17,8 @@
 }
 ```
 
-# Example Flake
+## Example Flake
+
 ```nix
 # flake.nix
 {
@@ -38,7 +41,8 @@
 }
 ```
 
-# Modularized Version
+## Modularized Version
+
 ```nix
 # flake.nix
 {
@@ -78,7 +82,8 @@
 }
 ```
 
-# Adding NixOS Configuration
+## Adding NixOS Configuration
+
 ```nix
 # nixos.nix
 { inputs, ... }: {

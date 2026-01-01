@@ -1,8 +1,11 @@
 #nixos #flakes
+
 From [Vimjoyer's Ultimate Nix Flakes Guide video](https://www.youtube.com/watch?v=JCeYq72Sko0)
 
-# Super Basic Flake
+## Super Basic Flake
+
 From [the official NixOS wiki](https://wiki.nixos.org/wiki/Flakes)
+
 ```nix
 {
   description = "A very basic flake";
@@ -21,7 +24,8 @@ From [the official NixOS wiki](https://wiki.nixos.org/wiki/Flakes)
 }
 ```
 
-# Nix Commands to Interact with Flakes
+## Nix Commands to Interact with Flakes
+
 ```nix
 nix run         # runs a packages binary
 nix build       # builds a package
@@ -43,12 +47,14 @@ nix run ~/myflake#hello
 ```
 
 Each interacts with a different output of the flake
+
 - `nix run` and `nix build` looks for `outputs.packages."SYSTEM".default`
 - `nix develop` looks for `outputs.devShells."SYSTEM".default`
 - `nixos-rebuild` looks for `outputs.nixosConfigurations."HOSTNAME"`
 - `home-manager` looks for `outpust.homeConfigurations."USERNAME"`
 
-# Basic Flake with Variables
+## Basic Flake with Variables
+
 ```nix
 {
   description = "A very basic flake";
@@ -69,7 +75,9 @@ Each interacts with a different output of the flake
   };
 }
 ```
-# Multiple Inputs in a Flake
+
+## Multiple Inputs in a Flake
+
 ```nix
 {
   description = "A very basic flake";
@@ -99,7 +107,8 @@ Each interacts with a different output of the flake
 }
 ```
 
-## Simplifying the Inputs section
+### Simplifying the Inputs Section
+
 ```nix
 {
 # ...
@@ -115,11 +124,14 @@ outputs = {nixpkgs, ...} @ inputs:
 }
 ```
 
-# The Lock File
+## The Lock File
+
 Run `nix flake metadata` to get info about the `flake.lock` file
+
 Run `nix flake update` to update the lock file
 
-# Inheriting Inputs
+## Inheriting Inputs
+
 ```nix
 ```nix
 {
@@ -133,8 +145,9 @@ Run `nix flake update` to update the lock file
   };
 ```
 
-# Flakes for NixOS systems
-## Bare Bones NixOS Flake
+## Flakes for NixOS Systems
+### Bare Bones NixOS Flake
+
 ```nix
 {
   description = "A very basic NixoOS system flake";
@@ -155,7 +168,9 @@ Run `nix flake update` to update the lock file
   };
 }
 ```
-##  NixOS System Flake with custom inputs
+
+### NixOS System Flake with Custom Inputs
+
 ```nix
 {
   description = "A very NixoOS system flake that passes inputs to the modules";
