@@ -11,10 +11,14 @@
             "id": "90c34d05c785a265",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mnemosyne.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Mnemosyne"
             }
           }
         ]
@@ -191,8 +195,9 @@
   },
   "active": "90c34d05c785a265",
   "lastOpenFiles": [
-    "NixOS/NixOS Config for Restic.md",
     "NixOS/Flake Examples.md",
+    "Mnemosyne.md",
+    "NixOS/NixOS Config for Restic.md",
     "NixOS/Flake Parts.md",
     "NixOS/nixos-anywhere.md",
     "README.md",
@@ -216,7 +221,6 @@
     "Language Reference/Golang.md",
     "Language Reference/Ansible.md",
     "Language Reference/ZFS/ZFS Commands.md",
-    "Language Reference/ZFS/ZFS.md",
     "NixOS",
     "Untitled.base",
     "PC Building Hardware",
