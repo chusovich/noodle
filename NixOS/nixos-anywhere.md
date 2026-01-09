@@ -2,7 +2,7 @@
 ## Links
 - [nixos-anywhere GitHub](https://github.com/nix-community/nixos-anywhere)
 - [nixos-anywhere-examples GitHub](https://github.com/nix-community/nixos-anywhere-examples)
-- 
+
 ## Requirements
 - You need a flake.nix
 - You need root ssh access to the system

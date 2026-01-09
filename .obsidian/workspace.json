@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6f1639029bb68357",
+        "id": "7d03f3e9d6228466",
         "type": "tabs",
         "children": [
           {
-            "id": "90c34d05c785a265",
+            "id": "64c7574f0f7b7254",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mnemosyne.md",
+                "file": "Installing NixOS on Raspberry Pi using nixos-anywhere.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mnemosyne"
+              "title": "Installing NixOS on Raspberry Pi using nixos-anywhere"
             }
           }
         ]
@@ -193,13 +193,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90c34d05c785a265",
+  "active": "64c7574f0f7b7254",
   "lastOpenFiles": [
-    "NixOS/Flake Examples.md",
-    "Mnemosyne.md",
     "NixOS/NixOS Config for Restic.md",
-    "NixOS/Flake Parts.md",
     "NixOS/nixos-anywhere.md",
+    "NixOS/NixOS on Raspberry Pi.md",
+    "Custom Flake Parameters.md",
+    "Language Reference/Git/Setting up Git from the Command Line.md",
+    "Installing NixOS on Raspberry Pi using nixos-anywhere.md",
+    "NixOS/Flake Examples.md",
+    "NixOS/Flake Parts.md",
+    "Mnemosyne.md",
     "README.md",
     "NixOS/NixOS Router.md",
     "NixOS/NixOS.md",
@@ -217,10 +221,6 @@
     "PC Building Hardware/Motherboards.md",
     "PC Building Hardware/Mini PCs.md",
     "To Sort/POE Power Meter.md",
-    "Language Reference/Git/Managing Secrets in Docker Compose with GitHub Actions.md",
-    "Language Reference/Golang.md",
-    "Language Reference/Ansible.md",
-    "Language Reference/ZFS/ZFS Commands.md",
     "NixOS",
     "Untitled.base",
     "PC Building Hardware",

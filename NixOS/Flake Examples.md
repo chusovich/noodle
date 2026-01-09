@@ -186,11 +186,12 @@ Run `nix flake update` to update the lock file
 	# this line sets a nixosConfiguration output
 	# using the hostname "nixos"
 	# using the nixosSystem function in lib in the nixpkgs lake
-    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem
-	  specialArgs = { inherit inputs };
+    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+	  specialArgs = { inherit inputs; };
       modules = [
         ./configuration.nix # also includes hardware-configuration.nix
       ]
+    };
   };
 }
 ```
