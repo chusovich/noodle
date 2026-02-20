@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "75743ef3b512c962",
+        "id": "5203eea38ebbbe8e",
         "type": "tabs",
         "children": [
           {
-            "id": "f3c1ff274f96a94f",
+            "id": "4fe66b1cfb119b87",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Language Reference/Git/Setting up Git from the Command Line.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Setting up Git from the Command Line"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "git ssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,11 +74,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "565247927b987e1b",
@@ -189,14 +195,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f3c1ff274f96a94f",
+  "active": "4fe66b1cfb119b87",
   "lastOpenFiles": [
+    "Language Reference/Git/Setting up Git from the Command Line.md",
+    "Raspberry Pi POE+ Hat with Home Assistant OS.md",
     "Installing NixOS on Raspberry Pi using nixos-anywhere.md",
     "NixOS/NixOS Config for Restic.md",
     "NixOS/nixos-anywhere.md",
     "NixOS/NixOS on Raspberry Pi.md",
     "Custom Flake Parameters.md",
-    "Language Reference/Git/Setting up Git from the Command Line.md",
     "NixOS/Flake Examples.md",
     "NixOS/Flake Parts.md",
     "Mnemosyne.md",
@@ -216,7 +223,6 @@
     "To Sort/N100 Server Build.md",
     "PC Building Hardware/Motherboards.md",
     "PC Building Hardware/Mini PCs.md",
-    "To Sort/POE Power Meter.md",
     "NixOS",
     "Untitled.base",
     "PC Building Hardware",
