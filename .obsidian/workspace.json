@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5203eea38ebbbe8e",
+        "id": "e4c52046ef57cbaa",
         "type": "tabs",
         "children": [
           {
-            "id": "4fe66b1cfb119b87",
+            "id": "2ac665522f7ff8fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Reference/Git/Setting up Git from the Command Line.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Setting up Git from the Command Line"
+              "title": "README"
             }
           }
         ]
@@ -74,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "565247927b987e1b",
@@ -195,19 +193,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4fe66b1cfb119b87",
+  "active": "2ac665522f7ff8fb",
   "lastOpenFiles": [
-    "Language Reference/Git/Setting up Git from the Command Line.md",
+    "To Sort/CNC Ideas.md",
+    "To Sort/Homelab Services.md",
+    "To Sort/Homelab Power Draw.md",
+    "To Sort/Notes.md",
+    "To Sort/Home Circuits.md",
+    "To Sort/Links.md",
+    "To Sort/ESPHome Reflow Oven.md",
+    "To Sort/ESPHome Shift Register LED.md",
+    "NixOS/Installing NixOS on Raspberry Pi using nixos-anywhere.md",
     "Raspberry Pi POE+ Hat with Home Assistant OS.md",
-    "Installing NixOS on Raspberry Pi using nixos-anywhere.md",
+    "README.md",
+    "Custom Flake Parameters.md",
+    "Mnemosyne.md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Language Reference/Git/Setting up Git from the Command Line.md",
     "NixOS/NixOS Config for Restic.md",
     "NixOS/nixos-anywhere.md",
     "NixOS/NixOS on Raspberry Pi.md",
-    "Custom Flake Parameters.md",
     "NixOS/Flake Examples.md",
     "NixOS/Flake Parts.md",
-    "Mnemosyne.md",
-    "README.md",
     "NixOS/NixOS Router.md",
     "NixOS/NixOS.md",
     "To Sort/M5 Stack Products of Note.md",
@@ -215,16 +223,7 @@
     "PCB Design/ESP32 POE Build.md",
     "PCB Design/ESP32-S3 Dev Board Pinouts.md",
     "PCB Design/Product Lineup.md",
-    "To Sort/Links.md",
-    "To Sort/Rclone and Rsync.md",
-    "To Sort/Smart 3 Way Swtiches.md",
-    "To Sort/Dynamically Changing Sensor Update Interval in ESPHome.md",
-    "PCB Design/ESP32 Chip Antennas.md",
-    "To Sort/N100 Server Build.md",
-    "PC Building Hardware/Motherboards.md",
-    "PC Building Hardware/Mini PCs.md",
     "NixOS",
-    "Untitled.base",
     "PC Building Hardware",
     "Linux/Operating Systems",
     "Language Reference/ZFS",
@@ -234,7 +233,6 @@
     "To Sort",
     "Images/ESP32-S3 Dev Board Pinouts-1755813242344.webp",
     "Images/ESP32-S3 Dev Board Pinouts-1755813138909.webp",
-    "Products",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Images/ESP32-S3-1754660637416.webp",
